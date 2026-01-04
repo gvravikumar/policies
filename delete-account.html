@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - Balija App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .section p, .section li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+        }
+
+        .section ul, .section ol {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        .highlight-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .highlight-box strong {
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .email-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        .data-list {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+
+        .data-list h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .warning strong {
+            color: #856404;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 1.5em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗑️ Delete Your Account</h1>
+            <p>Balija App - Account Deletion Request</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>How to Request Account Deletion</h2>
+                <p>If you wish to delete your Balija App account and all associated data, please follow these steps:</p>
+                
+                <ol>
+                    <li><strong>Send an email</strong> to our support team at: 
+                        <br><a href="mailto:support@balijaapp.com" class="email-link">support@balijaapp.com</a>
+                    </li>
+                    <li><strong>Include the following information</strong> in your email:
+                        <ul>
+                            <li>Your registered phone number or email address</li>
+                            <li>Subject line: "Account Deletion Request"</li>
+                            <li>Brief reason for deletion (optional)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Wait for confirmation</strong> - We will process your request and send you a confirmation email</li>
+                </ol>
+
+                <div class="highlight-box">
+                    <strong>⏱️ Processing Time:</strong> Your account deletion request will be processed within <strong>30 days</strong> of receipt.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>What Data Will Be Deleted</h2>
+                <div class="data-list">
+                    <h3>✅ Data That Will Be Permanently Removed:</h3>
+                    <ul>
+                        <li>Your profile information (name, contact details, address)</li>
+                        <li>Business card details and listings</li>
+                        <li>Uploaded images and media</li>
+                        <li>Service offerings and business information</li>
+                        <li>Account credentials and authentication data</li>
+                        <li>Activity logs and usage history</li>
+                        <li>Notification preferences</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Data Retention</h2>
+                <div class="data-list">
+                    <h3>📋 Data That May Be Retained:</h3>
+                    <ul>
+                        <li><strong>Legal compliance:</strong> Certain records may be retained for legal, tax, or regulatory purposes for up to 7 years</li>
+                        <li><strong>Anonymized data:</strong> Aggregated, anonymized analytics data that cannot identify you personally</li>
+                        <li><strong>Backup systems:</strong> Data in backup systems will be deleted according to our backup retention schedule (maximum 90 days)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="warning">
+                <strong>⚠️ Warning:</strong> Account deletion is permanent and cannot be undone. All your data, including business listings and contact information, will be permanently removed from our systems.
+            </div>
+
+            <div class="section">
+                <h2>Alternative: Temporarily Disable Your Account</h2>
+                <p>If you're not sure about permanently deleting your account, you can temporarily disable it from within the app:</p>
+                <ol>
+                    <li>Open the Balija App</li>
+                    <li>Go to Settings → Account Settings</li>
+                    <li>Select "Disable Account" (if available)</li>
+                </ol>
+                <p>This will hide your profile without deleting your data, and you can reactivate it anytime.</p>
+            </div>
+
+            <div class="section">
+                <h2>Need Help?</h2>
+                <p>If you have any questions about account deletion or data privacy, please contact us at:</p>
+                <div class="highlight-box">
+                    <strong>📧 Email:</strong> <a href="mailto:support@balijaapp.com" class="email-link">support@balijaapp.com</a><br>
+                    <strong>📱 App:</strong> Balija App (available on Google Play Store)
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Balija App. All rights reserved.</p>
+            <p>This page complies with Google Play Store data deletion requirements.</p>
+        </div>
+    </div>
+</body>
+</html>
